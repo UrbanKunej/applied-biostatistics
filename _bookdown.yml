@@ -1,0 +1,4 @@
+book_filename: "AppliedBiostatistics"
+chapter_name: "Poglavje "
+output_dir: gh-pages
+delete_merged_file: true

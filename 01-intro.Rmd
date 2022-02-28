@@ -1,0 +1,32 @@
+# Kratek uvod v linearno regresijo 
+
+```{r}
+set.seed(159)
+nobs <- 1000
+beta0 <- 1 #presek
+beta1 <- 0.15 #naklon
+```
+Simulirajmo podatke odvisne spremenljivke (npr. leta med 15-75).
+
+```{r}
+X <- sample(15:75, nobs, replace=T)
+Y <- rnorm(nobs, mean= beta0 + beta1 * X, sd = 1)
+```
+Podoben rezultat bi dosegli s kodo:  
+Y <- beta0 + beta1 * X + rnorm(nobs,mean=0,sd=1)  
+$Y = \beta0 + \beta1 \times X + rnorm(nobs,mean=0,sd=1)$
+```{r}
+par(mar=c(c(5,4,4,5) + 0.1 ))
+plot(X,Y, pch = 20, xlab = "leta", ylab ="izrazanje")
+abline(beta0, beta1, col = "red", lty =3, lwd = 2) # regresijska premica
+```
+
+Fitamo linearni model na podatke z uporabo funkcije lm.
+
+```{r}
+linmodel <-  lm(Y ~ X) # Y v odvisnosti od X
+print(summary(linmodel))
+```
+Enačba modela:  
+$Y = 1,004106 + 0,150705 \times X$;  
+Model pojasni 87,39% variabilnosti podatkov.
