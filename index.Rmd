@@ -1,8 +1,8 @@
 ---
-title: 'Applied biostatistics'
+title: 'Uporabna biostatistika'
 author: Urban Kunej
 date: "`r Sys.Date()`"
-knit: "bookdown::render_book"
+knit: "bookdown::render_book()"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 #output:
@@ -22,7 +22,6 @@ linestretch: 1.5
 toc-depth: 2
 link-citations: yes
 github-repo: UrbanKunej/applied-biostatistics
-#twiter-handle: guangchuangyu
 description: "This is description field."
 documentclass: book
 papersize: A4

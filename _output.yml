@@ -13,5 +13,5 @@ bookdown::pdf_book:
     "--top-level-division=chapter"
   ]
   citation_package: natbib
-bookdown::gitbook:
+bookdown::renderbook:
   split_by: none

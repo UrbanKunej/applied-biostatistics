@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Applied biostatistics</title>
+  <title>Poglavje 2 Kratek uvod v linearno regresijo | Uporabna biostatistika</title>
   <meta name="description" content="This is description field." />
   <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Applied biostatistics" />
+  <meta property="og:title" content="Poglavje 2 Kratek uvod v linearno regresijo | Uporabna biostatistika" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="UrbanKunej/applied-biostatistics" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Applied biostatistics" />
+  <meta name="twitter:title" content="Poglavje 2 Kratek uvod v linearno regresijo | Uporabna biostatistika" />
   
   <meta name="twitter:description" content="This is description field." />
   
@@ -31,7 +31,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-
+<link rel="prev" href="index.html"/>
 
 <script src="libs/header-attrs-2.11/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -133,8 +133,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
       <nav role="navigation">
 
 <ul class="summary">
-<li class="chapter" data-level="1" data-path=""><a href="#uporabna-biostatistika"><i class="fa fa-check"></i><b>1</b> Uporabna biostatistika</a></li>
-<li class="chapter" data-level="2" data-path=""><a href="#kratek-uvod-v-linearno-regresijo"><i class="fa fa-check"></i><b>2</b> Kratek uvod v linearno regresijo</a></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Uporabna biostatistika</a></li>
+<li class="chapter" data-level="2" data-path="kratek-uvod-v-linearno-regresijo.html"><a href="kratek-uvod-v-linearno-regresijo.html"><i class="fa fa-check"></i><b>2</b> Kratek uvod v linearno regresijo</a></li>
 </ul>
 
       </nav>
@@ -144,7 +144,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
       <div class="body-inner">
         <div class="book-header" role="navigation">
           <h1>
-            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Applied biostatistics</a>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Uporabna biostatistika</a>
           </h1>
         </div>
 
@@ -152,37 +152,25 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="header">
-<h1 class="title">Applied biostatistics</h1>
-<p class="author"><em>Urban Kunej</em></p>
-<p class="date"><em>2022-02-28</em></p>
-</div>
-<div id="uporabna-biostatistika" class="section level1" number="1">
-<h1><span class="header-section-number">Poglavje 1</span> Uporabna biostatistika</h1>
-<p>Cilj knjige je, da bralec spozna in razume uporabo statističnih metod za analizo eksperimentalno pridobljenih “omskih” podatkov. V knjigi so predstavljene osnove rastličnih statističnih metod ter njihova uporaba za analizo podatkov izražanja genov z mikromrežami, sekvenciranja visoke zmogljivosti (RNA sekvenciranje; RNA-Seq) in izražanja proteinov.
-Prav tako so prikazni primeri izdelave modelov s pomočjo katerih lahko izvedemo klasifikacijo in identifikacijo “omskih” elementov. Uporabljeni podatki so resnični in so objavljeni v različnih študijah ter prostodostopni v različnih genomskih/proteomskih zbirkah.</p>
-<p>Natančnejša razčlenitev knjige sledi.</p>
-
-</div>
 <div id="kratek-uvod-v-linearno-regresijo" class="section level1" number="2">
 <h1><span class="header-section-number">Poglavje 2</span> Kratek uvod v linearno regresijo</h1>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">159</span>)</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>nobs <span class="ot">&lt;-</span> <span class="dv">1000</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>beta0 <span class="ot">&lt;-</span> <span class="dv">1</span> <span class="co">#presek</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>beta1 <span class="ot">&lt;-</span> <span class="fl">0.15</span> <span class="co">#naklon</span></span></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="kratek-uvod-v-linearno-regresijo.html#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">159</span>)</span>
+<span id="cb1-2"><a href="kratek-uvod-v-linearno-regresijo.html#cb1-2" aria-hidden="true" tabindex="-1"></a>nobs <span class="ot">&lt;-</span> <span class="dv">1000</span></span>
+<span id="cb1-3"><a href="kratek-uvod-v-linearno-regresijo.html#cb1-3" aria-hidden="true" tabindex="-1"></a>beta0 <span class="ot">&lt;-</span> <span class="dv">1</span> <span class="co">#presek</span></span>
+<span id="cb1-4"><a href="kratek-uvod-v-linearno-regresijo.html#cb1-4" aria-hidden="true" tabindex="-1"></a>beta1 <span class="ot">&lt;-</span> <span class="fl">0.15</span> <span class="co">#naklon</span></span></code></pre></div>
 <p>Simulirajmo podatke odvisne spremenljivke (npr. leta med 15-75).</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>X <span class="ot">&lt;-</span> <span class="fu">sample</span>(<span class="dv">15</span><span class="sc">:</span><span class="dv">75</span>, nobs, <span class="at">replace=</span>T)</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>Y <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(nobs, <span class="at">mean=</span> beta0 <span class="sc">+</span> beta1 <span class="sc">*</span> X, <span class="at">sd =</span> <span class="dv">1</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="kratek-uvod-v-linearno-regresijo.html#cb2-1" aria-hidden="true" tabindex="-1"></a>X <span class="ot">&lt;-</span> <span class="fu">sample</span>(<span class="dv">15</span><span class="sc">:</span><span class="dv">75</span>, nobs, <span class="at">replace=</span>T)</span>
+<span id="cb2-2"><a href="kratek-uvod-v-linearno-regresijo.html#cb2-2" aria-hidden="true" tabindex="-1"></a>Y <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(nobs, <span class="at">mean=</span> beta0 <span class="sc">+</span> beta1 <span class="sc">*</span> X, <span class="at">sd =</span> <span class="dv">1</span>)</span></code></pre></div>
 <p>Podoben rezultat bi dosegli s kodo:<br />
 Y &lt;- beta0 + beta1 * X + rnorm(nobs,mean=0,sd=1)<br />
 <span class="math inline">\(Y = \beta0 + \beta1 \times X + rnorm(nobs,mean=0,sd=1)\)</span></p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">par</span>(<span class="at">mar=</span><span class="fu">c</span>(<span class="fu">c</span>(<span class="dv">5</span>,<span class="dv">4</span>,<span class="dv">4</span>,<span class="dv">5</span>) <span class="sc">+</span> <span class="fl">0.1</span> ))</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(X,Y, <span class="at">pch =</span> <span class="dv">20</span>, <span class="at">xlab =</span> <span class="st">&quot;leta&quot;</span>, <span class="at">ylab =</span><span class="st">&quot;izrazanje&quot;</span>)</span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">abline</span>(beta0, beta1, <span class="at">col =</span> <span class="st">&quot;red&quot;</span>, <span class="at">lty =</span><span class="dv">3</span>, <span class="at">lwd =</span> <span class="dv">2</span>) <span class="co"># regresijska premica</span></span></code></pre></div>
-<p><img src="appliedBiostatistics_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="kratek-uvod-v-linearno-regresijo.html#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">par</span>(<span class="at">mar=</span><span class="fu">c</span>(<span class="fu">c</span>(<span class="dv">5</span>,<span class="dv">4</span>,<span class="dv">4</span>,<span class="dv">5</span>) <span class="sc">+</span> <span class="fl">0.1</span> ))</span>
+<span id="cb3-2"><a href="kratek-uvod-v-linearno-regresijo.html#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(X,Y, <span class="at">pch =</span> <span class="dv">20</span>, <span class="at">xlab =</span> <span class="st">&quot;leta&quot;</span>, <span class="at">ylab =</span><span class="st">&quot;izrazanje&quot;</span>)</span>
+<span id="cb3-3"><a href="kratek-uvod-v-linearno-regresijo.html#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">abline</span>(beta0, beta1, <span class="at">col =</span> <span class="st">&quot;red&quot;</span>, <span class="at">lty =</span><span class="dv">3</span>, <span class="at">lwd =</span> <span class="dv">2</span>) <span class="co"># regresijska premica</span></span></code></pre></div>
+<p><img src="uporabnaBiostatistika_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
 <p>Fitamo linearni model na podatke z uporabo funkcije lm.</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>linmodel <span class="ot">&lt;-</span>  <span class="fu">lm</span>(Y <span class="sc">~</span> X) <span class="co"># Y v odvisnosti od X</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">summary</span>(linmodel))</span></code></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="kratek-uvod-v-linearno-regresijo.html#cb4-1" aria-hidden="true" tabindex="-1"></a>linmodel <span class="ot">&lt;-</span>  <span class="fu">lm</span>(Y <span class="sc">~</span> X) <span class="co"># Y v odvisnosti od X</span></span>
+<span id="cb4-2"><a href="kratek-uvod-v-linearno-regresijo.html#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">summary</span>(linmodel))</span></code></pre></div>
 <pre><code>## 
 ## Call:
 ## lm(formula = Y ~ X)
@@ -211,7 +199,7 @@ Model pojasni 87,39% variabilnosti podatkov.</p>
           </div>
         </div>
       </div>
-
+<a href="index.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
 
     </div>
   </div>
