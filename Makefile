@@ -1,6 +1,6 @@
 bs4:
-	rm -rf gh-pages/libs;\
-	#rm -rf gh-pages/appliedBiostatistics_files/figure-html;\
+	rm -rf docs/libs;\
+	#rm -rf docs/index_files/figure-html;\
 	Rscript -e 'library(bookdown); render_book("index.Rmd", "bs4_book")'
 
 gitbook:
@@ -20,8 +20,8 @@ cover:
 	Rscript -e 'source("book-cover.R")'
 
 publish:
-	cd gh-pages;\
+	cd docs;\
 	git add .;\
 	git commit -m 'update';\
-	git push -u origin gh-pages
+	git push -u origin docs
 	

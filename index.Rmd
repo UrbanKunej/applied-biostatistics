@@ -1,5 +1,5 @@
 ---
-title: 'Applied biostatistics'
+title: 'Uporabna biostatistika'
 author: Urban Kunej
 date: "`r Sys.Date()`"
 knit: "bookdown::render_book"

@@ -1,4 +1,4 @@
-# Kratek uvod v linearno regresijo 
+# Kratek uvod v linearno regresijo  
 
 ```{r}
 set.seed(159)

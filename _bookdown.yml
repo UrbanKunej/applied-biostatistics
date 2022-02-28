@@ -1,4 +1,4 @@
-book_filename: "AppliedBiostatistics"
+book_filename: "index"
 chapter_name: "Poglavje "
 output_dir: "docs"
 delete_merged_file: true
