@@ -33,7 +33,7 @@ geometry: "left=35mm,right=35mm,top=25mm,bottom=25mm"
 
 # Uporabna biostatistika
 
-Cilj knjige je, da bralec spozna in razume uporabo statističnih metod za analizo eksperimentalno pridobljenih "omskih" podatkov. V knjigi so predstavljene osnove rastličnih statističnih metod ter njihova uporaba za analizo podatkov izražanja genov z mikromrežami, sekvenciranja visoke zmogljivosti (RNA sekvenciranje; RNA-Seq) in izražanja proteinov.
-Prav tako so prikazni primeri izdelave modelov s pomočjo katerih lahko izvedemo klasifikacijo in identifikacijo "omskih" elementov. Uporabljeni podatki so resnični in so objavljeni v različnih študijah ter prostodostopni v različnih genomskih/proteomskih zbirkah. 
+Cilj knjige je, da bralec spozna in razume uporabo statističnih metod za analizo eksperimentalno pridobljenih "omskih" podatkov. V knjigi so predstavljene osnove različnih statističnih metod ter njihova uporaba za analizo podatkov izražanja genov z mikromrežami, sekvenciranja visoke zmogljivosti (RNA sekvenciranje; RNA-Seq) in izražanja proteinov.
+Prav tako so prikazni primeri izdelave modelov s pomočjo katerih lahko izvedemo klasifikacijo in identifikacijo "omskih" markerjev, ki so specifični za določena (bolezenska) stanja. Uporabljeni podatki so resnični in so objavljeni v različnih študijah ter prostodostopni v različnih genomskih/proteomskih zbirkah. 
 
 Natančnejša razčlenitev knjige sledi.
