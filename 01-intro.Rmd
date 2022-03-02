@@ -6,7 +6,7 @@ nobs <- 1000
 beta0 <- 1 #presek
 beta1 <- 0.15 #naklon
 ```
-Simulirajmo podatke odvisne spremenljivke (npr. leta med 15-75).
+Simulirajmo podatke neodvisne spremenljivke (npr. starost oseb med 15-75).
 
 ```{r}
 X <- sample(15:75, nobs, replace=T)
@@ -21,7 +21,7 @@ plot(X,Y, pch = 20, xlab = "leta", ylab ="izrazanje")
 abline(beta0, beta1, col = "red", lty =3, lwd = 2) # regresijska premica
 ```
 
-Fitamo linearni model na podatke z uporabo funkcije lm.
+Linearni model fitamo na podatke z uporabo funkcije lm.
 
 ```{r}
 linmodel <-  lm(Y ~ X) # Y v odvisnosti od X
