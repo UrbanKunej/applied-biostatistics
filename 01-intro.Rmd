@@ -6,7 +6,7 @@ nobs <- 1000
 beta0 <- 1 #presek
 beta1 <- 0.15 #naklon
 ```
-Simulirajmo podatke neodvisne spremenljivke (npr. starost oseb med 15-75).
+Simulirajmo podatke odvisne/odzivne spremenljivke Y (npr. teža) za neodvisno spremenljivko X (npr. starost oseb med 15-75).
 
 ```{r}
 X <- sample(15:75, nobs, replace=T)
